@@ -28,9 +28,8 @@ async function main() {
   const session = driver.session();
 
   try {
-    // Exemplo: buscar cartas do set "khm" (Kaldheim). Podes mudar a query.
     // Scryfall: /cards/search?q=set:khm
-    const res = await fetch("https://api.scryfall.com/cards/search?q=set:khm");
+    const res = await fetch("https://api.scryfall.com/cards/search?q=set:tmt");
     const data = await res.json();
 
     if (!data || !data.data) {

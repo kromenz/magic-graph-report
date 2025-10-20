@@ -40,7 +40,8 @@ async function fetchData() {
   try {
     const result = await session.run(
       `
-      MATCH (c:Card)-[:IN_SET]->(s:Set {code: 'khm'})
+      MATCH (c:Card)-[:IN_SET]->(s:Set)
+      WHERE s.code IN ['ltr', 'tmt']
       RETURN c.name AS name, c.cmc AS cmc, c.rarity AS rarity, c.oracle_text AS text, c.image AS image
       ORDER BY c.cmc DESC
       LIMIT 50
