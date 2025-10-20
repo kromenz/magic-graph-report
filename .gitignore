@@ -1,0 +1,77 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build output
+dist/
+build/
+out/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+logs/*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# npm package lock (keep or remove based on your policy)
+# package-lock.json
+# yarn.lock
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Docker
+docker-compose.override.yml
+*.env.docker
+**/docker-compose.override.yml
+
+# Temporary files
+*.tmp
+*.temp
+
+# Puppeteer / Chromium caches
+.chromium/
+puppeteer/.local-chromium/
+
+# Prisma
+# Keep migrations folder committed (recommended), but ignore generated client
+node_modules/.prisma
+prisma/.env
+
+# Misc
+*.seed.json
+*.pdf
+report.html
+*.sqlite
+.vagrant/
+
+# IDE / OS metadata
+*.swp
+*~ 
+
+# Optional: VS Code workspace file (if you don't want to commit personal workspace)
+*.code-workspace

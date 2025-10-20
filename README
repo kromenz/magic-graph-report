@@ -1,0 +1,43 @@
+# Magic Graph / Reports (Node + TypeScript + PostgreSQL)
+
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![PostGres](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Vscode](https://img.shields.io/badge/Vscode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+
+---
+
+## About
+
+Small demo project. It collects collectible-card data (example: Scryfall for Magic: The Gathering), stores it in **PostgreSQL**, and produces a PDF report rendered from HTML using Node + TypeScript and **Puppeteer**.
+
+This repo demonstrates:
+
+- Node + TypeScript backend code
+- Relational modeling in PostgreSQL
+- Reproducible dev environment with Docker
+- Seed script to import card data
+- Automated HTML → PDF reporting
+
+---
+
+## Stack
+
+- **Node.js** (runtime)
+- **TypeScript** (language)
+- **PostgreSQL** (database)
+- **Puppeteer** (HTML → PDF rendering)
+- **Docker / Docker Compose** (dev environment)
+- **VSCode** (recommended editor)
+- **GitHub** (repo / version control)
+
+---
+
+## Features
+
+- Docker Compose configuration to run PostgreSQL locally
+- Seed script that ingests card data (via Scryfall API or local file)
+- Report generator: query DB, create HTML, convert to PDF (Puppeteer)
+- Example SQL schema & helpful example queries
+- Scripts in `package.json` for common tasks
