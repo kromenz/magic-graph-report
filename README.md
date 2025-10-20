@@ -1,4 +1,4 @@
-# Magic Graph / Reports (Node + TypeScript + PostgreSQL)
+# Magic Graph / Reports
 
 ![Neo4J](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
